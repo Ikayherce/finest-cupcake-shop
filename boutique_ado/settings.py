@@ -24,9 +24,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', 'iddbwcug-jiej32)i^=*$(1i6=l1np8^^dlb5sv)k-^c%abs8o')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+#DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True 
 
-ALLOWED_HOSTS = ['8000-ikayherce-boutiqueado-756pf5xlsjb.ws-eu114.gitpod.io','finest-cupcake-shop-f6bb59a1e3db.herokuapp.com']
+ALLOWED_HOSTS = ['8000-ikayherce-boutiqueado-756pf5xlsjb.ws-eu114.gitpod.io','8000-ikayherce-finestcupcake-wptalysgr73.ws.codeinstitute-ide.net','finest-cupcake-shop-f6bb59a1e3db.herokuapp.com']
 
 
 # Application definition
@@ -61,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',  
 ]
 
 ROOT_URLCONF = 'boutique_ado.urls'
