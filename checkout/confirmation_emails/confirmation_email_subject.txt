@@ -1,1 +1,1 @@
-Boutique Ado Confirmation for Order Number {{ order.order_number }}
+The Finest Cupcake Shop Confirmation for Order Number {{ order.order_number }}
