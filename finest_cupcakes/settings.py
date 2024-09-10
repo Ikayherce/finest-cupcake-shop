@@ -30,8 +30,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-ikayherce-finestcupcake-9mn711fds1h.ws.codeinstitute-ide.net','finest-cupcake-shop-f6bb59a1e3db.herokuapp.com']
 
 
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -49,7 +47,6 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
 
-    # Other
     'crispy_forms',
     'storages',
 ]
