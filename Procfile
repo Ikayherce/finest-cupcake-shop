@@ -1,1 +1,1 @@
-web: gunicorn finest-cupcake-shop.wsgi:application
+web: gunicorn finest_cupcakes.wsgi:application
