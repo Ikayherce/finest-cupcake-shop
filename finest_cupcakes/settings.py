@@ -217,7 +217,7 @@ DEFAULT_FROM_EMAIL = 'cupcakeshop@example.com'
 
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-ikayherce-finestcupcake-wptalysgr73.ws.codeinstitute-ide.net',
+    'https://8000-ikayherce-finestcupcake-9mn711fds1h.ws.codeinstitute-ide.net',
     'https://finest-cupcake-shop-f6bb59a1e3db.herokuapp.com',
     # Add any other trusted origins here
 ]
