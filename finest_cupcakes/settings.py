@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'iddbwcug-jiej32)i^=*$(1i6=l1np8^^dlb5
 #DEBUG = 'DEVELOPMENT' in os.environ
 DEBUG = True 
 
-ALLOWED_HOSTS = ['8000-ikayherce-finestcupcake-9mn711fds1h.ws.codeinstitute-ide.net','finest-cupcake-shop-f6bb59a1e3db.herokuapp.com']
+ALLOWED_HOSTS = ['8000-ikayherce-finestcupcake-9mn711fds1h.ws.codeinstitute-ide.net','8080-ikayherce-finestcupcake-9mn711fds1h.ws.codeinstitute-ide.net','finest-cupcake-shop-f6bb59a1e3db.herokuapp.com']
 
 
 INSTALLED_APPS = [
